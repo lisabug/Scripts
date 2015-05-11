@@ -10,12 +10,12 @@ wget http://www.nada.kth.se/cvap/actions/boxing.zip
 wget http://www.nada.kth.se/cvap/actions/handwaving.zip
 wget http://www.nada.kth.se/cvap/actions/handclapping.zip
 
-tar xvf walking.zip
-tar xvf jogging.zip
-tar xvf running.zip
-tar xvf boxing.zip
-tar xvf handwaving.zip
-tar xvf handclapping.zip
+unzip -d ./walking walking.zip
+unzip -d ./jogging jogging.zip
+unzip -d ./running running.zip
+unzip -d ./boxing boxing.zip
+unzip -d ./handwaving handwaving.zip
+unzip -d ./handclapping handclapping.zip
 
 cd ..
 mkdir archive
