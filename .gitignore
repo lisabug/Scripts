@@ -1,0 +1,2 @@
+# except sh files, all other files should be ignored
+!*.sh
